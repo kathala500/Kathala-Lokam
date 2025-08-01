@@ -1,0 +1,55 @@
+/* General Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fef8f4;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Container */
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+/* Headings */
+h1 {
+  color: #d46a6a;
+}
+
+h2 {
+  color: #444;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 20px;
+  font-size: 16px;
+  background-color: #d46a6a;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #b84c4c;
+}
+
+/* Story Box */
+.story {
+  text-align: left;
+  background-color: #fff7f2;
+  border: 1px solid #f1dad5;
+  padding: 15px;
+  margin: 20px 0;
+  border-radius: 10px;
+}
